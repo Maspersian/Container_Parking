@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1393082075750933499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5880718473041456255}
+  - component: {fileID: 8660830460278402731}
+  m_Layer: 0
+  m_Name: ButtonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5880718473041456255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393082075750933499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8660830460278402731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393082075750933499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772f78a9f3167ee469a1d7f96e273eda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  comSoonPannel: {fileID: 3935892349907416005, guid: 9919b8d3388dbb84eb4d57f0b5ad3085, type: 3}
+  sfxManager: {fileID: 5737213655938033286, guid: f147521c002545c489c255af0a355268, type: 3}
+  errorClip: {fileID: 8300000, guid: e6b02ab0454acb342949fae6c51476fc, type: 3}
+  SelectClip: {fileID: 8300000, guid: ee4946b7dee63ce4c8813ab23dc99705, type: 3}
+  winClip: {fileID: 8300000, guid: ac39e843364334b4fa9567afbac9a3ca, type: 3}
+  levelClip: {fileID: 8300000, guid: 9c330df4825c2e24b98bb3013e0606b6, type: 3}
+  tochClip: {fileID: 8300000, guid: f27e577ca7db7684fa448373580cf4ce, type: 3}
